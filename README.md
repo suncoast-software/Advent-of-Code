@@ -1,5 +1,5 @@
 # Advent of Code 2021
-#PROGRESS
+# PROGRESS
 | Day  | Part One | Part Two | 
 |---|:---:|:---:|
 | ✅ [Day 1: TBD]()|🎇 | |
