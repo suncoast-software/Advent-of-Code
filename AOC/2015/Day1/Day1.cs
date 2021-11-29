@@ -26,7 +26,28 @@ namespace AOC._2015.Day1
 
         public string Part_Two()
         {
-            return "";
+            var input = ReadInput(1);
+            var floor = 0;
+            var index = 0;
+            foreach (var item in input)
+            {
+                index++;
+                if (item.Equals('('))
+                {
+                    floor++;
+                    if (floor == -1)
+                        return index.ToString();
+
+                }
+                else
+                {
+                    floor--;
+                    if (floor == -1)
+                        return index.ToString();
+                }
+
+            }
+            return index.ToString();
         }
 
     }
