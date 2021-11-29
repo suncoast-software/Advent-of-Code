@@ -2,7 +2,7 @@
 # PROGRESS
 | Day  | Part One | Part Two | 
 |---|:---:|:---:|
-| ✅ [Day 1: Not Quite Lisp]()| 🎇 | 🎇 |
+| ✅ [Day 1: Not Quite Lisp](Day1)| 🎇 | 🎇 |
 | ❌ [Day 2: TBD]()| | |
 | ❌ [Day 3: TBD]()| | |
 | ❌ [Day 4: TBD]()| | |
