@@ -3,7 +3,7 @@
 | Day  | Part One | Part Two | 
 |---|:---:|:---:|
 | ✅ [Day 1: Not Quite Lisp](Day1)| 🎇 | 🎇 |
-| ✅ [Day 2: I Was Told There Would Be No Math](Day2)| 🎇 | |
+| ✅ [Day 2: I Was Told There Would Be No Math](Day2)| 🎇 |🎇 |
 | ❌ [Day 3: TBD]()| | |
 | ❌ [Day 4: TBD]()| | |
 | ❌ [Day 5: TBD]()| | |
