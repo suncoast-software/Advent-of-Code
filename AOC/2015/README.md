@@ -4,7 +4,7 @@
 |---|:---:|:---:|
 | ✅ [Day 1: Not Quite Lisp](Day1)| 🎇 | 🎇 |
 | ✅ [Day 2: I Was Told There Would Be No Math](Day2)| 🎇 |🎇 |
-| ❌ [Day 3: TBD]()| | |
+| ❌ [Day 3: Perfectly Spherical Houses in a Vacuum](Day3)| | |
 | ❌ [Day 4: TBD]()| | |
 | ❌ [Day 5: TBD]()| | |
 | ❌ [Day 6: TBD]()| | |
