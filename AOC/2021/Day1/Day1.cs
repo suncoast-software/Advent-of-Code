@@ -8,37 +8,40 @@ namespace AOC._2021.Day1
 {
     public class Day1: Day
     {
-        private string[]? _input;
+        private string? _input;
         private string? _testInput;
 
-        public int Part_One()
+        public async Task<int> Part_One()
         {
-            _input = ReadInput(1);
+            _input = await GetInputForDay(1);
+            var lines = _input.Split(Environment.NewLine, StringSplitOptions.RemoveEmptyEntries);
             var increased = 0;
-            var result = _input.OrderBy(x => x).ToList();
-            for (int i = 0; i < _input.Count(); i++)
+            var result = lines.OrderBy(x => x).ToList();
+            for (int i = 0; i < result.Count(); i++)
             {
                 if (i == 0)
                     continue;
-                var currentLine = int.Parse(_input[i]);
-                var previousLine = int.Parse(_input[i - 1]);
+                var currentLine = int.Parse(result[i]);
+                var previousLine = int.Parse(result[i - 1]);
                 if (currentLine > previousLine)
                     increased++;
             }
             return increased;
         }
 
-        public int Part_Two()
+        public async Task<int> Part_Two()
         {
-            _input = ReadInput(1);
+            _input = await GetInputForDay(1);
+            var lines = _input.Split(Environment.NewLine, StringSplitOptions.RemoveEmptyEntries);
             var increased = 0;
-            var result = _input.OrderBy(x => x).ToList();
-            for (int i = 0; i < _input.Count() - 3; i++)
+            var result = lines.OrderBy(x => x).ToList();
+            for (int i = 0; i < result.Count() - 3; i++)
             {
-                var currentLine = int.Parse(_input[i]);
-                var secondLine = int.Parse(_input[i + 1]);
-                var thirdLine = int.Parse(_input[i + 2]);
-                var fourthLine = int.Parse(_input[i + 3]);
+                
+                var currentLine = int.Parse(lines[i]);
+                var secondLine = int.Parse(lines[i + 1]);
+                var thirdLine = int.Parse(lines[i + 2]);
+                var fourthLine = int.Parse(lines[i + 3]);
                 var groupOne = new int[3];
                 var groupTwo = new int[3];
                 groupOne[0] = currentLine;
