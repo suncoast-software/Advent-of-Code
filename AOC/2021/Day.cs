@@ -8,9 +8,12 @@ namespace AOC._2021
 {
     public class Day
     {
-        public string ReadInput(string inpot)
+        public string[] ReadInput(int day)
         {
-            return string.Empty;
+            var input = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "2021", $"Day{day}\\input.txt");
+            // var input = AppDomain.CurrentDomain.BaseDirectory + $"\\2015\\Day{day}\\input.txt";
+            var lines = File.ReadAllText(input).Split(Environment.NewLine, StringSplitOptions.RemoveEmptyEntries);
+            return lines;
         }
     }
 }

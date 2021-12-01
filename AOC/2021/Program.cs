@@ -1,6 +1,7 @@
-﻿using AOC._2015.Day2;
+﻿using AOC._2021.Day1;
 
 Console.WriteLine("Hello, Advent of Code 2021");
-Day2 day = new();
-var partTwoResult = day.Part_Two();
-Console.WriteLine(partTwoResult);
+Day1 day = new();
+var partOneResult = day.Part_One();
+//var partTwoResult = day.Part_Two();
+Console.WriteLine(partOneResult);
