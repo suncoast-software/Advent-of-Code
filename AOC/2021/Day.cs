@@ -22,7 +22,7 @@ namespace AOC._2021
                 {
                     Domain = ".adventofcode.com",
                     Name = "session",
-                    Value = "53616c7465645f5fdca0523b10cb01cb6bc720f3468a09b24c17d0b62b43d5ad22a55618c70306bd211e339b7548577e"
+                    Value = ""
                 });
                 using var handler = new HttpClientHandler() { CookieContainer = cookies };
                 using var client = new HttpClient(handler);
