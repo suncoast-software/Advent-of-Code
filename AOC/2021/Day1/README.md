@@ -7,7 +7,6 @@
 
 ## Day 1 Solution
 
-```
 [Day 1: three-measurement sliding window](Day1)
 
-```
+
