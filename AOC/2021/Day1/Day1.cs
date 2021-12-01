@@ -31,27 +31,20 @@ namespace AOC._2021.Day1
         public async Task<int> Part_Two()
         {
             _input = await GetInputForDay(1);
-            var lines = _input.Split(Environment.NewLine, StringSplitOptions.RemoveEmptyEntries);
+            var lines = _input.Split("\n", StringSplitOptions.RemoveEmptyEntries);
             var increased = 0;
-            var result = _input.OrderBy(x => x).ToList();
-            for (int i = 0; i < _input.Count() - 3; i++)
+            var nums = lines.Select(x => int.TryParse(x, out int parsed)).ToArray();
+            for (var i = 0; i < lines.Count() - 3; i++)
             {
-                var currentLine = int.Parse(lines[i]);
-                var secondLine = int.Parse(lines[i + 1]);
-                var thirdLine = int.Parse(lines[i + 2]);
-                var fourthLine = int.Parse(lines[i + 3]);
-                var groupOne = new int[3];
-                var groupTwo = new int[3];
-                groupOne[0] = currentLine;
-                groupOne[1] = secondLine;
-                groupOne[2] = thirdLine;
-                groupTwo[0] = secondLine;
-                groupTwo[1] = thirdLine;
-                groupTwo[2] = fourthLine;
-                var groupOneTotal = groupOne.Sum();
-                var groupTwoTotal = groupTwo.Sum();
-                if (groupTwoTotal > groupOneTotal)
-                    increased++;
+                if(nums[i])
+                {
+                    var groupOne = int.Parse(lines[i]) + int.Parse(lines[i + 1]) + int.Parse(lines[i + 2]);
+                    var groupTwo = int.Parse(lines[i + 1]) + int.Parse(lines[i + 2]) + int.Parse(lines[i + 3]);
+                    if (groupTwo > groupOne)
+                        increased++;
+                     
+                }
+               
             }
             return increased;
         }
