@@ -1,5 +1,5 @@
 # Day 01 - Sonar Sweep
-@@ Problem 1
+##Problem 1
 
 You're minding your own business on a ship at sea when the overboard alarm goes off! You rush to see if you can help. Apparently, one of the Elves tripped and accidentally sent the sleigh keys flying into the ocean!
 
@@ -81,9 +81,9 @@ In this example, there are 5 sums that are larger than the previous sum.
 Consider sums of a three-measurement sliding window. How many sums are larger than the previous sum?
 Day 01 Solution
 
-```Day01 - First Answer: 1713
-Day01 - Second Answer: 1734
-Day01 - Execution finished in 0.0015020370483398 seconds.```
+Day01 - First Answer: 
+Day01 - Second Answer: 
+Day01 - Execution finished in 0.0015020370483398 seconds.
 
 
 
