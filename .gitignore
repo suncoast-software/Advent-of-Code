@@ -9,7 +9,7 @@
 *.user
 *.userosscache
 *.sln.docstates
-/2021/Day.cs
+secret.json
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
