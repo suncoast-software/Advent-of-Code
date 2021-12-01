@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,14 +15,9 @@ namespace AOC._2021.Day1
         {
             _input = ReadInput(1);
             var increased = 0;
-            var result = _input.OrderBy(x => x).ToList();
-            for (int i = 0; i < _input.Count(); i++)
+            for (var i = 0; i < _input.Length - 1; i++)
             {
-                if (i == 0)
-                    continue;
-                var currentLine = int.Parse(_input[i]);
-                var previousLine = int.Parse(_input[i - 1]);
-                if (currentLine > previousLine)
+                if (int.Parse(_input[i + 1]) > int.Parse(_input[i]))
                     increased++;
             }
             return increased;
@@ -32,24 +27,11 @@ namespace AOC._2021.Day1
         {
             _input = ReadInput(1);
             var increased = 0;
-            var result = _input.OrderBy(x => x).ToList();
-            for (int i = 0; i < _input.Count() - 3; i++)
+            for (var i = 0; i < _input.Length - 3; i++)
             {
-                var currentLine = int.Parse(_input[i]);
-                var secondLine = int.Parse(_input[i + 1]);
-                var thirdLine = int.Parse(_input[i + 2]);
-                var fourthLine = int.Parse(_input[i + 3]);
-                var groupOne = new int[3];
-                var groupTwo = new int[3];
-                groupOne[0] = currentLine;
-                groupOne[1] = secondLine;
-                groupOne[2] = thirdLine;
-                groupTwo[0] = secondLine;
-                groupTwo[1] = thirdLine;
-                groupTwo[2] = fourthLine;
-                var groupOneTotal = groupOne.Sum();
-                var groupTwoTotal = groupTwo.Sum();
-                if (groupTwoTotal > groupOneTotal)
+                var groupOne = int.Parse(_input[i]) + int.Parse(_input[i + 1]) + int.Parse(_input[i + 2]);
+                var groupTwo = int.Parse(_input[i + 1]) + int.Parse(_input[i + 2]) + int.Parse(_input[i + 3]);
+                if (groupTwo > groupOne)
                     increased++;
             }
             return increased;
