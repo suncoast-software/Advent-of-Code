@@ -7,6 +7,7 @@
 
 ## Day 1 Solution
 
+...
 [Day 1: Sonar Sweep](Day1)
 
-
+...
