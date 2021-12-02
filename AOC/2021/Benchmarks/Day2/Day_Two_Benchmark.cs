@@ -9,8 +9,7 @@ namespace AOC._2021.Benchmarks.Day2
 
         public Day_Two_Benchmark()
         {
-            Setup();
-           
+            Setup();  
         }
 
         [Benchmark]
