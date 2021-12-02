@@ -9,7 +9,7 @@ Console.WriteLine("Hello, Advent of Code 2021");
 
 
 Day2 day = new();
-var partOneResult = await day.Part_One(2);
+var partOneResult = await day.Solve(2);
 //var partTwoResult = await day.Part_Two();
 Console.WriteLine(partOneResult);
 //Console.WriteLine(partTwoResult);
