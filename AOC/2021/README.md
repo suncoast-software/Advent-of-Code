@@ -3,7 +3,7 @@
 | Day  | Part One | Part Two | 
 |---|:---:|:---:|
 | ✅ [Day 1: Sonar Sweep](Day1)| ✨ | ✨ |
-| ❌ [Day 2: TBD]()| | |
+| ✅ [Day 2: Dive!](Day2)| ✨ | ✨ |
 | ❌ [Day 3: TBD]()| | |
 | ❌ [Day 4: TBD]()| | |
 | ❌ [Day 5: TBD]()| | |
