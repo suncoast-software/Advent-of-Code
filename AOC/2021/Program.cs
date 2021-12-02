@@ -2,8 +2,6 @@
 using AOC._2021.Day2;
 using BenchmarkDotNet.Running;
 
-Console.WriteLine("Hello, Advent of Code 2021");
-
 Day_Two_Benchmark benchmark = new();
 
 var results = BenchmarkRunner.Run<Day_Two_Benchmark>();

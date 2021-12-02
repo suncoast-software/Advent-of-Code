@@ -5,23 +5,19 @@ namespace AOC._2021.Benchmarks.Day2
     [MemoryDiagnoser]
     public class Day_Two_Benchmark: Day
     {
-        private string _input;
+        private string? _input;
 
         public Day_Two_Benchmark()
         {
-            Task.Run(async () =>
-            {
-                 _input = await GetInputForDay(2);
-
-            }).ConfigureAwait(false);
+            Setup();
            
         }
 
         [Benchmark]
-        public async Task<int> Solve()
+        public int Solve()
         {
            
-            var lines = _input.Split(new[] { "\n", "\r" }, StringSplitOptions.RemoveEmptyEntries);
+            var lines = _input?.Split(new[] { "\n", "\r" }, StringSplitOptions.RemoveEmptyEntries);
             var subDepth = 0;
             var position = 0;
             var aim = 0;
@@ -51,5 +47,18 @@ namespace AOC._2021.Benchmarks.Day2
             }
             return subDepth * position;
         }
+
+         [GlobalSetup]
+        private void Setup()
+        {
+            Task.Run(async () =>
+             {
+                 _input = await GetInputForDay(2);
+
+             });
+            
+        }
     }
+   
+    
 }
