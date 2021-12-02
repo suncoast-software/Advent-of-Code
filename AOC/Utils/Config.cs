@@ -5,11 +5,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AOC
+namespace AOC.Utils
 {
     public class Config
     {
-        [JsonProperty("cookie")]
+        [JsonProperty("secret")]
         public string Secret { get; set; }
 
     }

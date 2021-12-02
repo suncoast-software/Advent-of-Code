@@ -1,10 +1,4 @@
-﻿using AOC.Config;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Net;
 
 namespace AOC
 {
@@ -23,7 +17,7 @@ namespace AOC
                 {
                     Domain = ".adventofcode.com",
                     Name = "session",
-                    Value = AOC.Config.Configuration.GetSecretJson()
+                    Value = Configuration.GetSecretJson().ToString()
                 });
                 using var handler = new HttpClientHandler() { CookieContainer = cookies };
                 using var client = new HttpClient(handler);

@@ -14,16 +14,20 @@ namespace AOC._2021.Day1
         public async Task<int> Part_One()
         {
             _input = await GetInputForDay(1);
-            var lines = _input.Split(Environment.NewLine, StringSplitOptions.RemoveEmptyEntries);
+            var lines = _input.Split("\n", StringSplitOptions.RemoveEmptyEntries);
             var increased = 0;
-            for (var i = 0; i < _input.Length - 1; i++)
+            for (var i = 0; i < lines.Length - 1; i++)
             {
                 if (i == 0)
-                    continue;
-                var currentLine = int.Parse(lines[i]);
-                var previousLine = int.Parse(lines[i - 1]);
-                if (currentLine > previousLine)
-                    increased++;
+                { }
+                else
+                {
+                    var currentLine = int.Parse(lines[i]);
+                    var previousLine = int.Parse(lines[i - 1]);
+                    if (currentLine > previousLine)
+                        increased++;
+                }
+               
             }
             return increased;
         }
