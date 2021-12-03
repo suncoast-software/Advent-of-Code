@@ -4,7 +4,7 @@
 |---|:---:|:---:|
 | ✅ [Day 1: Sonar Sweep](Day1)| ✨ | ✨ |
 | ✅ [Day 2: Dive!](Day2)| ✨ | ✨ |
-| ⌚  [Day 3: TBD]()| | |
+| ✅  [Day 3: Binary Diagnostic](Day3)| ✨ | ✨ |
 | ⌚  [Day 4: TBD]()| | |
 | ⌚  [Day 5: TBD]()| | |
 | ⌚  [Day 6: TBD]()| | |
