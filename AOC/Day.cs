@@ -17,7 +17,7 @@ namespace AOC
                 {
                     Domain = ".adventofcode.com",
                     Name = "session",
-                    Value = Configuration.GetSecretJson().ToString()
+                    Value = Configuration.GetSecretJson().Secret
                 });
                 using var handler = new HttpClientHandler() { CookieContainer = cookies };
                 using var client = new HttpClient(handler);

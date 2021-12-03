@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AOC._2021.Extensions;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,21 +20,21 @@ namespace AOC._2021.Day2
             foreach (var line in lines)
             {
                 var command = line.Split(" ")[0];
-                var amount = line.Split(" ")[1];
+                var amount = line.Split(" ")[1].ToInt();
 
                switch (command)
                 {
                     case "down":
-                        aim += int.Parse(amount);
+                        aim += amount;
                         break;
 
                     case "up":
-                        aim -= int.Parse(amount);
+                        aim -= amount;
                         break;
 
                     case "forward":
-                        position += int.Parse(amount);
-                        subDepth += aim * int.Parse(amount);
+                        position += amount;
+                        subDepth += aim * amount;
                         break;
 
                         default:
