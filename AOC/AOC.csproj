@@ -31,6 +31,9 @@
     <None Update="2021\Day1\test.txt">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </None>
+    <None Update="2021\Day3\input.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Update="Utils\secret.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
