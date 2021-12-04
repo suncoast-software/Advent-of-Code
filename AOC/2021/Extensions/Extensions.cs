@@ -15,5 +15,10 @@ namespace AOC._2021.Extensions
 
             return 0;
         }
+
+        public static int BinaryToDecimal(this StringBuilder value)
+        {
+            return Convert.ToInt32(value.ToString(), 2);
+        }
     }
 }

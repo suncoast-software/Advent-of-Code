@@ -88,21 +88,21 @@ namespace AOC._2021.Day3
 
         private static char? LeastCommon(int index, List<string> bits)
         {
-            var count0 = 0;
-            var count1 = 0;
+            var countZero = 0;
+            var countOne = 0;
             foreach (var item in bits)
             {
                 switch (item[index])
                 {
                     case '0':
-                        count0 += 1;
+                        countZero += 1;
                         break;
                     default:
-                        count1 += 1;
+                        countOne += 1;
                         break;
                 }
             }
-             return count1 == count0 ? null : count1 > count0 ? '0' : '1';
+             return countOne == countZero ? null : countOne > countZero ? '0' : '1';
         }
     }
 }
