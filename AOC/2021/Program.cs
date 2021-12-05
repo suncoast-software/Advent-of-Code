@@ -8,8 +8,8 @@ using BenchmarkDotNet.Running;
 //var results = BenchmarkRunner.Run<Day5_Benchmark>();
 
 Day3 day = new();
-var partOneResult = day.Part_One();
+//var partOneResult = day.Part_One();
 //var partTwoResult = await day.Solve_Part2(3);
-//var partTwoResult = await day.Part_Two();
-Console.WriteLine(partOneResult);
-//Console.WriteLine(partTwoResult);
+var partTwoResult = day.Part_Two();
+//Console.WriteLine(partOneResult);
+Console.WriteLine(partTwoResult);
