@@ -5,7 +5,7 @@
 | ✅  [Day 1: Sonar Sweep](Day1)| ✨ | ✨ |
 | ✅  [Day 2: Dive!](Day2)| ✨ | ✨ |
 | ✅  [Day 3: Binary Diagnostic](Day3)| ✨ | ✨ |
-| ❌  [Day 4: TBD]()| | |
+| ❌  [Day 4: Giant Squid]()| | |
 | ✅  [Day 5: Hydrothermal Venture](Day5)| ✨ | ✨ |
 | ⌚  [Day 6: TBD]()| | |
 | ⌚  [Day 7: TBD]()| | |
