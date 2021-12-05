@@ -10,7 +10,7 @@ namespace Tests
     public class Day3Tests
     {
         [TestMethod]
-        public void TestMethod1()
+        public void Test_PartOne()
         {
             string[] input = new[] { "00100", "11110", "10110",
                                     "10111", "10101", "01111",

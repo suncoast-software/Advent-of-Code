@@ -2,11 +2,11 @@
 # PROGRESS
 | Day  | Part One | Part Two | 
 |---|:---:|:---:|
-| ✅ [Day 1: Sonar Sweep](Day1)| ✨ | ✨ |
-| ✅ [Day 2: Dive!](Day2)| ✨ | ✨ |
+| ✅  [Day 1: Sonar Sweep](Day1)| ✨ | ✨ |
+| ✅  [Day 2: Dive!](Day2)| ✨ | ✨ |
 | ✅  [Day 3: Binary Diagnostic](Day3)| ✨ | ✨ |
-| ⌚  [Day 4: TBD]()| | |
-| ⌚  [Day 5: TBD]()| | |
+| ❌  [Day 4: TBD]()| | |
+| ✅  [Day 5: Hydrothermal Venture](Day5)| ✨ | ✨ |
 | ⌚  [Day 6: TBD]()| | |
 | ⌚  [Day 7: TBD]()| | |
 | ⌚  [Day 8: TBD]()| | |
