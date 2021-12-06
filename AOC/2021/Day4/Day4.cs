@@ -12,7 +12,7 @@ namespace AOC._2021.Day4
 
         public async Task<int> Solve_Part1(int day)
         {
-            _input = await GetInputForDay(day);
+            _input = await GetInputForDayAsync(day);
             var lines = _input.Split(new String[] { "\r", "\n", " " }, StringSplitOptions.RemoveEmptyEntries);
             var nums = lines[0].Split(',').Select(int.Parse).ToList();
             var rawBoards = lines.Skip(1).Select((x, i) => (x, i)).GroupBy(x => x.i / 25);

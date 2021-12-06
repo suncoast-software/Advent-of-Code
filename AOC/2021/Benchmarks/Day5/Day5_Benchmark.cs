@@ -13,7 +13,7 @@ namespace AOC._2021.Benchmarks.Day5
         [Benchmark]
         public async Task<int> Solve_Part1()
         {
-            var input = await GetInputForDay(5);
+            var input = await GetInputForDayAsync(5);
 
             var parse = (string s) =>
             {

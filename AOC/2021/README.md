@@ -7,7 +7,7 @@
 | ✅  [Day 3: Binary Diagnostic](Day3)| ✨ | ✨ |
 | ❌  [Day 4: Giant Squid]()| | |
 | ✅  [Day 5: Hydrothermal Venture](Day5)| ✨ | ✨ |
-| ⌚  [Day 6: TBD]()| | |
+| ⌚  [Day 6: Lanternfish](Day6)| ✨ | ✨ |
 | ⌚  [Day 7: TBD]()| | |
 | ⌚  [Day 8: TBD]()| | |
 | ⌚  [Day 9: TBD]()| | |

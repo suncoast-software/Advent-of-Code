@@ -12,7 +12,7 @@ namespace AOC._2021.Day2
         private string _input;
         public async Task<int> Solve(int day)
         {
-            _input = await GetInputForDay(2);
+            _input = await GetInputForDayAsync(2);
             var lines = _input.Split(new[] { "\n", "\r" }, StringSplitOptions.RemoveEmptyEntries);
             var subDepth = 0;
             var position = 0;

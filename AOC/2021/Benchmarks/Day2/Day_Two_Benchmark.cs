@@ -52,7 +52,7 @@ namespace AOC._2021.Benchmarks.Day2
         {
             Task.Run(async () =>
              {
-                 _input = await GetInputForDay(2);
+                 _input = await GetInputForDayAsync(2);
 
              });
             

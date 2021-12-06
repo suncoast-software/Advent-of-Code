@@ -10,7 +10,7 @@ namespace AOC._2021.Day3
     {
         public async Task<int> Solve_Part1(int day)
         {
-            string? _input = await GetInputForDay(day);
+            string? _input = await GetInputForDayAsync(day);
             var lines = _input.Trim().Split(new[] { "\n", "\r" }, StringSplitOptions.RemoveEmptyEntries).ToList();
 
             var lineLength = lines[0].Length;
@@ -34,7 +34,7 @@ namespace AOC._2021.Day3
 
         public async Task<int> Solve_Part2(int day)
         {
-            string? _input = await GetInputForDay(day);
+            string? _input = await GetInputForDayAsync(day);
             var lines = _input.Trim().Split(new[] { "\n", "\r" }, StringSplitOptions.RemoveEmptyEntries).ToList();
 
             int lineLength = lines[0].Length;

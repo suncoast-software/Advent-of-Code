@@ -4,7 +4,7 @@ namespace AOC
 {
     public class Day
     {
-        public async Task<string> GetInputForDay(int day)
+        public async Task<string> GetInputForDayAsync(int day)
         {
             string input;
 
@@ -29,6 +29,17 @@ namespace AOC
             {
                 input = await File.ReadAllTextAsync(fileName);
             }
+
+            return input;
+        }
+
+        public string GetInputForDay(int day)
+        {
+            string input;
+
+            var fileName = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "2021", $"Day{day}", "input.txt");
+
+            input = File.ReadAllText(fileName);
 
             return input;
         }

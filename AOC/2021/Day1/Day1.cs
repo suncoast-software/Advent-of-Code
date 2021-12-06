@@ -13,7 +13,7 @@ namespace AOC._2021.Day1
 
         public async Task<int> Part_One()
         {
-            _input = await GetInputForDay(1);
+            _input = await GetInputForDayAsync(1);
             var lines = _input.Split("\n", StringSplitOptions.RemoveEmptyEntries);
             var increased = 0;
             for (var i = 0; i < lines.Length - 1; i++)
@@ -34,7 +34,7 @@ namespace AOC._2021.Day1
 
         public async Task<int> Part_Two()
         {
-            _input = await GetInputForDay(1);
+            _input = await GetInputForDayAsync(1);
             var lines = _input.Split("\n", StringSplitOptions.RemoveEmptyEntries);
             var increased = 0;
             var nums = lines.Select(x => int.TryParse(x, out int parsed)).ToArray();

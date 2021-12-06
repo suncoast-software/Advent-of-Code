@@ -1,15 +1,18 @@
-﻿using System;
+﻿using BenchmarkDotNet.Attributes;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AOC._2015.Day5
+namespace AOC._2015.Benchmark.Day5
 {
-    public class Day5: Day
+    [MemoryDiagnoser]
+    public class Day5_Benchmark: Day
     {
         private string[]? _input;
 
+        [Benchmark]
         public int Part_One()
         {
             _input = ReadInput(5);
@@ -36,19 +39,6 @@ namespace AOC._2015.Day5
                     nice.Add(currentLine);
             }
             return nice.Count();
-        }
-
-        public int Part_Two()
-        {
-            _input = ReadInput(5);
-            var nice = new List<string>();
-            for (int i = 0; i < _input.Length; i++)
-            {
-                var currentLine = _input[i];
-
-            }
-
-            return 0;
         }
 
         private bool CheckBadMatch(string s1, string[] bad)

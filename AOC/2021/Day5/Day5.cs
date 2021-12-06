@@ -10,7 +10,7 @@ namespace AOC._2021.Day5
     {
         public async Task<int> Solve_Part1(int day)
         {
-            var input = await GetInputForDay(day);
+            var input = await GetInputForDayAsync(day);
             
             var parse = (string s) =>
             {
