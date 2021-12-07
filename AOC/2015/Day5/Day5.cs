@@ -25,12 +25,10 @@ namespace AOC._2015.Day5
 
                 for (int x = 0; x < currentLine.Length - 1; x++)
                 {
-                    doubleChar = CheckDoubleMatch(currentLine[x], currentLine[x + 1]);
+                    doubleChar = CheckDoubleMatch(currentLine);
                     if (doubleChar)
                         break;
                 }
-
-               
 
                 if (vCount > 2 && badMatch == false && doubleChar)
                     nice.Add(currentLine);
@@ -45,10 +43,15 @@ namespace AOC._2015.Day5
             for (int i = 0; i < _input.Length; i++)
             {
                 var currentLine = _input[i];
+                var isMatch = CheckDoubleMatch(currentLine);
+                var matchWithSpace = CheckMatchWithSpace(currentLine);
+
+                if (isMatch && matchWithSpace)
+                    nice.Add(currentLine);
 
             }
 
-            return 0;
+            return nice.Count();
         }
 
         private bool CheckBadMatch(string s1, string[] bad)
@@ -61,9 +64,32 @@ namespace AOC._2015.Day5
             return false;
         }
 
-        private bool CheckDoubleMatch(char s1, char s2)
+        private bool CheckDoubleMatch(string value)
         {
-            if (s1 == s2)
+            var count = 0;
+            for (int i = 0; i < value.Length - 1; i++)
+            {
+                if (value[i] == value[i + 1])
+                    count++;
+                if (count > 1)
+                    return true;
+            }
+            return false;
+        }
+
+        private bool CheckMatchWithSpace(string value)
+        {
+            var count = 0;
+            for (int i = 0; i < value.Length - 2; i++)
+            {
+                var charOne = value[i];
+                var charTwo = value[i + 2];
+                var isMatch = charOne == charTwo;
+                if (isMatch)
+                    count++; ;
+            }
+
+            if (count > 1)
                 return true;
 
             return false;
