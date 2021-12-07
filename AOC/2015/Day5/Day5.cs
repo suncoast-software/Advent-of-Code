@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace AOC._2015.Day5
@@ -43,10 +44,13 @@ namespace AOC._2015.Day5
             for (int i = 0; i < _input.Length; i++)
             {
                 var currentLine = _input[i];
-                var isMatch = CheckDoubleMatch(currentLine);
-                var matchWithSpace = CheckMatchWithSpace(currentLine);
+                var _isMatch = CheckDoubleMatch(currentLine);
+                var cRes = @"(.).\1";
+                var aRes = @"S*(\S\S)\S*\1\S*";
+                var res = new Regex(cRes);
+                var resTwo = new Regex(aRes);
 
-                if (isMatch && matchWithSpace)
+                if (resTwo.IsMatch(currentLine) && res.IsMatch(currentLine))
                     nice.Add(currentLine);
 
             }
@@ -67,12 +71,18 @@ namespace AOC._2015.Day5
         private bool CheckDoubleMatch(string value)
         {
             var count = 0;
-            for (int i = 0; i < value.Length - 1; i++)
+            for (int i = 0; i < value.Length - 3; i++)
             {
-                if (value[i] == value[i + 1])
+                var pairOne = $"{value[i]}{value[i + 1]}";
+                var pairTwo = $"{value[i+ 2]}{value[i + 3]}";
+                if (pairOne == pairTwo)
                     count++;
-                if (count > 1)
+                  
+                if (count >= 2)
+                {
                     return true;
+                }
+                   
             }
             return false;
         }
