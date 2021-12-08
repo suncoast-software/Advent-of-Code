@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace AOC._2015.Benchmark.Day5
@@ -38,6 +39,27 @@ namespace AOC._2015.Benchmark.Day5
                 if (vCount > 2 && badMatch == false && doubleChar)
                     nice.Add(currentLine);
             }
+            return nice.Count();
+        }
+
+        [Benchmark]
+        public int Part_Two()
+        {
+            _input = ReadInput(5);
+            var nice = new List<string>();
+            for (int i = 0; i < _input.Length; i++)
+            {
+                var currentLine = _input[i];
+                var cRes = @"(.).\1";
+                var aRes = @"S*(\S\S)\S*\1\S*";
+                var res = new Regex(cRes);
+                var resTwo = new Regex(aRes);
+
+                if (resTwo.IsMatch(currentLine) && res.IsMatch(currentLine))
+                    nice.Add(currentLine);
+
+            }
+
             return nice.Count();
         }
 

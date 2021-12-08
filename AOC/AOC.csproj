@@ -10,6 +10,7 @@
   <ItemGroup>
     <PackageReference Include="BenchmarkDotNet" Version="0.13.1" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="RegExtract" Version="1.0.17" />
   </ItemGroup>
 
   <ItemGroup>
@@ -26,6 +27,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="2015\Day5\input.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="2015\Day6\input.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="2021\Benchmarks\Day1\input.txt">
@@ -50,6 +54,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="2021\Day7\input.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="2021\Day8\input.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="Utils\secret.json">

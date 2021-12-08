@@ -12,7 +12,7 @@ namespace AOC._2015
         {
             var input = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "2015", $"Day{day}", "input.txt");
            // var input = AppDomain.CurrentDomain.BaseDirectory + $"\\2015\\Day{day}\\input.txt";
-            var lines = File.ReadAllText(input).Split(Environment.NewLine, StringSplitOptions.RemoveEmptyEntries);
+            var lines = File.ReadAllText(input).Split(Environment.NewLine, StringSplitOptions.RemoveEmptyEntries).ToArray();
             return lines;
         }
     }
