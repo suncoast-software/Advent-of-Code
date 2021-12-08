@@ -9,7 +9,7 @@
 | ✅  [Day 5: Hydrothermal Venture](Day5)| ✨ | ✨ |
 | ✅  [Day 6: Lanternfish](Day6)| ✨ | ✨ |
 | ✅  [Day 7: The Treachery of Whales](Day7)| ✨ | ✨ |
-| ✅  [Day 8: Seven Segment Search]Day8()| ✨ | ✨ |
+| ✅  [Day 8: Seven Segment Search](Day8)| ✨ | ✨ |
 | ⌚  [Day 9: TBD]()| | |
 | ⌚  [Day 10: TBD]()| | |
 | ⌚  [Day 11: TBD]()| | |
