@@ -11,13 +11,14 @@
         <tr>
             <td rowspan="2">2021</td>
             <td>Part 1</td>
-            <td><a title="Day 1" href="https://github.com/suncoast-software/Advent-of-Code/tree/master/AOC/2021/Day1">✅</a>✅✅✅✅✅✅⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛</td>
+            <td><a title="Day 1" href="https://github.com/suncoast-software/Advent-of-Code/tree/master/AOC/2021/Day1">✅</a>
+            title="Day 2" href="https://github.com/suncoast-software/Advent-of-Code/tree/master/AOC/2021/Day2">✅</a>✅✅✅✅✅✅⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛</td>
             <td>7/25</td>
             <td rowspan="2" align="center">14/50<br />✨</td>
         </tr>
         <tr>
             <td>Part 2</td>
-            <td>✅✅✅✅✅✅✅⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛</td>
+            <td>✅✅✅✅✅✅✅✅⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛</td>
             <td>7/25</td>
         </tr>
         <tr>
