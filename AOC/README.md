@@ -18,9 +18,10 @@
             <a title="Day 5" href="https://github.com/suncoast-software/Advent-of-Code/tree/master/AOC/2021/Day5">✅</a>
             <a title="Day 6" href="https://github.com/suncoast-software/Advent-of-Code/tree/master/AOC/2021/Day6">✅</a>
             <a title="Day 7" href="https://github.com/suncoast-software/Advent-of-Code/tree/master/AOC/2021/Day7">✅</a>
-            <a title="Day 8" href="https://github.com/suncoast-software/Advent-of-Code/tree/master/AOC/2021/Day8">✅</a>⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛</td>
-            <td>8/25</td>
-            <td rowspan="2" align="center">14/50<br />✨</td>
+            <a title="Day 8" href="https://github.com/suncoast-software/Advent-of-Code/tree/master/AOC/2021/Day8">✅</a>
+            <a title="Day 9" href="https://github.com/suncoast-software/Advent-of-Code/tree/master/AOC/2021/Day9">✅</a>⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛</td>
+            <td>9/25</td>
+            <td rowspan="2" align="center">16/50<br />✨</td>
         </tr>
         <tr>
             <td>Part 2</td>
@@ -31,8 +32,9 @@
             <a title="Day 5" href="https://github.com/suncoast-software/Advent-of-Code/tree/master/AOC/2021/Day5">✅</a>
             <a title="Day 6" href="https://github.com/suncoast-software/Advent-of-Code/tree/master/AOC/2021/Day6">✅</a>
             <a title="Day 7" href="https://github.com/suncoast-software/Advent-of-Code/tree/master/AOC/2021/Day7">✅</a>
-            <a title="Day 8" href="https://github.com/suncoast-software/Advent-of-Code/tree/master/AOC/2021/Day8">✅</a>⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛</td>
-            <td>8/25</td>
+            <a title="Day 8" href="https://github.com/suncoast-software/Advent-of-Code/tree/master/AOC/2021/Day8">✅</a>
+            <a title="Day 8" href="https://github.com/suncoast-software/Advent-of-Code/tree/master/AOC/2021/Day9">✅</a>⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛</td>
+            <td>9/25</td>
         </tr>
         <tr>
             <td rowspan="2">2020</td>
