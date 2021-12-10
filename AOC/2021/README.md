@@ -11,7 +11,7 @@
 | ✅  [Day 7: The Treachery of Whales](Day7)| ✨ | ✨ |
 | ✅  [Day 8: Seven Segment Search](Day8)| ✨ | ✨ |
 | ✅  [Day 9: Smoke Basin](Day9)| ✨ | ✨ |
-| ⌚  [Day 10: TBD]()| | |
+| ✅  [Day 10: Syntax Scoring](Day10)| ✨ | ✨ |
 | ⌚  [Day 11: TBD]()| | |
 | ⌚  [Day 12: TBD]()| | |
 | ⌚  [Day 12: TBD]()| | |
