@@ -42,13 +42,13 @@
             <td rowspan="2">2020</td>
             <td>Part 1</td>
            <td>⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛</td>
-            <td>14/25</td>
+            <td>0/25</td>
             <td rowspan="2" align="center">26/50<br />✨</td>
         </tr>
         <tr>
             <td>Part 2</td>
            <td>⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛</td>
-            <td>12/25</td>
+            <td>0/25</td>
         </tr>
         <tr>
             <td rowspan="2">2019</td>
