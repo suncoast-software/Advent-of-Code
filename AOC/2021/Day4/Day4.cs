@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AOC._2021.Extensions;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,8 +14,8 @@ namespace AOC._2021.Day4
         public async Task<int> Solve_Part1(int day)
         {
             _input = await GetInputForDayAsync(day);
-            var lines = _input.Split(new String[] { "\r", "\n", " " }, StringSplitOptions.RemoveEmptyEntries);
-            var nums = lines[0].Split(',').Select(int.Parse).ToList();
+            var lines = _input.ToLines();
+            var nums = lines[0].Split(',').AsInt32s().ToList();
             var rawBoards = lines.Skip(1).Select((x, i) => (x, i)).GroupBy(x => x.i / 25);
             var matchCount = 0;
             var picked = new List<int>();

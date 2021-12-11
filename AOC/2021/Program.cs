@@ -1,19 +1,15 @@
-﻿using AOC._2015.Day6;
-using AOC._2021.Benchmarks.Day8;
-using AOC._2021.Day10;
-using AOC._2021.Day8;
-using AOC._2021.Day9;
+﻿using AOC._2021.Benchmarks.Day11;
 using BenchmarkDotNet.Running;
 
-//Day8_Benchmark benchmark = new();
-//var results = BenchmarkRunner.Run<Day8_Benchmark>();
+Day11_Benchmark benchmark = new();
+var results = BenchmarkRunner.Run<Day11_Benchmark>();
 
-//Day8 day = new();
+//Day11 day = new();
 //var result = await day.Part_One();
 //Console.WriteLine(result);
-Day10 day = new();
+//Day10 day = new();
 //var partOneResult = await day.Part_One();
-var partTwoResult = await day.Part_Two();
+//var partTwoResult = await day.Part_Two();
 //var partTwoResult = await day.Part_Two();
 //Console.WriteLine(partOneResult);
-Console.WriteLine(partTwoResult);
+//Console.WriteLine(partTwoResult);
