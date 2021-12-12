@@ -9,8 +9,6 @@ namespace AOC._2021.Day11
 {
     public class Day11 : Day
     {
-
-
         public async Task<int> Part_One()
         {
             var _input = @"2566885432
@@ -83,7 +81,6 @@ namespace AOC._2021.Day11
             return flashCount;
         }
   
-
     public async Task<int> Part_Two()
     {
         var _input = @"2566885432

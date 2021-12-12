@@ -13,7 +13,7 @@
 | ✅  [Day 9: Smoke Basin](Day9)| ✨ | ✨ |
 | ✅  [Day 10: Syntax Scoring](Day10)| ✨ | ✨ |
 | ✅  [Day 11: Dumbo Octopus](Day11)| ✨ | ✨ |
-| ⌚  [Day 12: TBD]()| | |
+| ✅  [Day 12: Passage Pathing](Day12)| ✨ | ✨ |
 | ⌚  [Day 12: TBD]()| | |
 | ⌚  [Day 14: TBD]()| | |
 | ⌚  [Day 15: TBD]()| | |
